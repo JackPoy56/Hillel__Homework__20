@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="js/classes/TagElement.js" defer></script>
+    <script src="js/app.js" defer></script>
+    <title>HW20</title>
+</head>
+<body>
+    <div id="main">
+        <div id="addNewCard">
+            <div>
+                <input type="text" placeholder="Title" id="newCardTitle">
+                <input type="text" placeholder="Description" id="newCardDescription">
+                <div>
+                    <h2>Priority</h2>
+                    <select id="newCardPrior">
+                        <option value="Low">Low</option>
+                        <option value="Medium">Medium</option>
+                        <option value="High">High</option>
+                    </select>
+                </div>
+            </div>
+            <button>
+                Save
+            </button>
+        </div>
+        <div id="cards">
+        </div>
+    </div>
+</body>
+</html>

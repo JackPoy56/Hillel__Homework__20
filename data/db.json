@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "title": "Avery",
+    "description": "Prepare a report on the work performed for the month",
+    "status": "Todo",
+    "priority": "Medium"
+  },
+  {
+    "id": "2",
+    "title": "Helga",
+    "description": "Assign people to a new team",
+    "status": "Todo",
+    "priority": "Low"
+  },
+  {
+    "id": "3",
+    "title": "Bean",
+    "description": "Submit proposals for a new project",
+    "status": "Done",
+    "priority": "High"
+  }
+]

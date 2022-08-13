@@ -1,0 +1,89 @@
+#addNewCard {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    padding: 10px;
+    background: #8ecd8e;
+}
+
+#addNewCard > div:first-child {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    margin: 0%;
+}
+
+#addNewCard > div > input {
+    margin-bottom: 10px;
+}
+
+#addNewCard > div > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#addNewCard > button {
+    margin: 0;
+    height: 30px;
+    background: #36f700;
+    border: 1px solid;
+}
+
+#cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.card {
+    width: 20%;
+    padding: 10px;
+    border: 1px solid #832b2b;
+    background: #3f5c3f;
+}
+
+.card .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card > div {
+    margin-top: 10px;
+}
+
+.title {
+    margin: 0;
+    font-size: 30px;
+    color: white;
+}
+
+.description {
+    margin: 10px 0;
+    padding: 5px;
+    border: 1px dashed;
+    font-size: 20px;
+    color: #d1d1d1;
+}
+
+button {
+    margin-right: 10px;
+    border: none;
+    padding: 2px 13px;
+    cursor: pointer;
+}
+
+select {
+    cursor: pointer;
+}
+
+.controls > button:first-child {
+    background-color: #36f700;
+}
+
+.controls > button:last-child {
+    background-color: #ff0000;
+}
